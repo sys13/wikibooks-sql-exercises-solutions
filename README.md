@@ -13,3 +13,10 @@ To Run a SQL file:
 ```
 sqlite3 -column -header store.db < 1.sql
 ```
+
+To create, say 20, sql files, run:
+
+```
+cd 1_computer_store
+../createSqlFiles.sh 20
+```
