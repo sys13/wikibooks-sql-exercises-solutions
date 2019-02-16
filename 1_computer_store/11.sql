@@ -1,0 +1,2 @@
+-- 11. Select the product name, price, and manufacturer name of all the products.
+SELECT Products.Name, Price, Manufacturers.Name AS "Manufacturer" FROM Products JOIN Manufacturers ON Products.Manufacturer = Manufacturers.Code;
