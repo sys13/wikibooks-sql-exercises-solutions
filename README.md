@@ -5,7 +5,7 @@ It uses sqlite3, so on linux `sudo apt install sqlite3`
 Create a DB and insert data, first create a `create.sql` file with the create and insert data, then run:
 
 ```
-sqlite3 -column -header store.db < create.sql
+sqlite3 store.db < create.sql
 ```
 
 To Run a SQL file:
